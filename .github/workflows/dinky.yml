@@ -6,7 +6,7 @@ on:
       IMAGE_NAME:
         description: '原镜像名称'
         required: true
-        default: 'dinkydocker/dinky'
+        default: 'dinkydocker/dinky-standalone-server'
       NEW_NAME:
         description: '同步后镜像名称'
         required: true
@@ -14,7 +14,7 @@ on:
       IMAGE_VERSION:
         description: '镜像版本'
         required: true
-        default: '1.1.0-flink1.19'
+        default: '1.2.0-flink1.19'
       TARGET_REGISTRY:
         description: '仓库地址'
         required: true
