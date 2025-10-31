@@ -1,4 +1,4 @@
-name: /dnsdist-master 镜像 action
+name: dnsdist-master 镜像 action
 
 on:
   workflow_dispatch:
