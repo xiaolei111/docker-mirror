@@ -6,15 +6,15 @@ on:
       IMAGE_NAME:
         description: '原镜像名称'
         required: true
-        default: 'powerdns/pdns-recursor-master'
+        default: 'powerdns/pdns-recursor-54'
       NEW_NAME:
         description: '同步后镜像名称'
         required: true
-        default: 'pdns-recursor-master'
+        default: 'pdns-recursor-54'
       IMAGE_VERSION:
         description: '镜像版本'
         required: true
-        default: 'latest'
+        default: '5.4.1'
       TARGET_REGISTRY:
         description: '仓库地址'
         required: true
