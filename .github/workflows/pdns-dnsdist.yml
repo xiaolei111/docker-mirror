@@ -6,15 +6,15 @@ on:
       IMAGE_NAME:
         description: '原镜像名称'
         required: true
-        default: 'powerdns/dnsdist-master'
+        default: 'powerdns/dnsdist-20'
       NEW_NAME:
         description: '同步后镜像名称'
         required: true
-        default: 'dnsdist-master'
+        default: 'dnsdist-20'
       IMAGE_VERSION:
         description: '镜像版本'
         required: true
-        default: 'latest'
+        default: '2.0.5'
       TARGET_REGISTRY:
         description: '仓库地址'
         required: true
